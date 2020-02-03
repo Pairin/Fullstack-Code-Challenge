@@ -22,9 +22,10 @@ Bonus requirements are all completely optional but will show us extra initiative
 
 ## Evaluation Criteria
  - Logic
-  - We are interested in how well you handle logic and structuring of the pixel data from the canvas
+   - We are interested in how well you handle logic and structuring of the pixel data from the canvas
  - React
-  - How well your react fundamentals are and how well you separate functionality into components.
+   - How well your react fundamentals are and how well you separate functionality into components.
+ - Commit details are helpful in tracking your thought process, so while this isn't directly evaluation criteria, it can help you out.
 
 Timeliness is also a huge factor. While there is no maximum time, we are evaluating candidates on a rolling basis so if you take too long, we may accept another candidate before we can evaluate you.
 
