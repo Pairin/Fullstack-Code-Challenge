@@ -4,7 +4,7 @@ Build a paint-bucket tool using plain React components (no outside libraries).  
 
 ## Requirements
  - Create a rails app (only API functionality is needed - no rails views) in this same repo (example: `Fullstack-Code-Challenge/rails_project_example_name`)
- - When you select from the color choices on the right and then click on a blank space in the canvas and it should fill in the outline with the selected color
+ - When you select from the color choices on the right and then click on a blank space in the canvas it should fill the blanks space up to the outline with the selected color
  - If the outline doesn't form an enclosed space, it should continue to fill the canvas with that same color until it either fills the whole screen, or reaches the limits of another enclosed space.
  - Use only React. No other runtime libraries. (Webpack and other build tools are fine)
  - Add a save button and takes user input for a filename and send it to a route defined as `/canvas_images` in the Rails API
