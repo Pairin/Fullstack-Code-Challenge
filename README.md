@@ -3,7 +3,7 @@
 Build a paint-bucket tool using plain React components (no outside libraries).  There is a react component (`components/paint-canvas/index.js`) that draws an image onto HTML canvas for you, but you will be building the paint-bucket functionality yourself. You will also build a Rails API that can store altered images made from the canvas (ie, saving a colored in image). 
 
 ## Requirements
-
+ - Create a rails app in this same repo (example: `Fullstack-Code-Challenge/rails_project_example_name`)
  - When you select from the color choices on the right and then click on a blank space in the canvas and it should fill in the outline with the selected color
  - If the outline doesn't form an enclosed space, it should continue to fill the canvas with that same color until it either fills the whole screen, or reaches the limits of another enclosed space.
  - Use only React. No other runtime libraries. (Webpack and other build tools are fine)
@@ -16,7 +16,9 @@ Bonus requirements are all completely optional but will show us extra initiative
 
  - Create an API endpoint to CRUD different color choices instead of the hard-coded choices provided.
  - Allow storing the canvas image in different file formats.
- - Add ability to draw your own image on the canvas with mouse events.
+ - Add the ability to draw your own image on the canvas with mouse events. Save on each stroke and add an "undo" (ctrl + z) functionality.
+ - Dockerize the react app and rails app
+ - 
 
 ## Evaluation Criteria
  - Logic
